@@ -1,0 +1,23 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "WebPack set up.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "keywords": [],
+  "author": "Michael Netelenbos",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
